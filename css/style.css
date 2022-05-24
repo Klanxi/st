@@ -1,5 +1,5 @@
 :root {
-    --header-bg-color: #ceeafe;
+    --header-bg-color: #f5f5f5;
 }
 * {
     margin: 0 auto;
@@ -112,6 +112,7 @@ body {
     line-height: 78px;
     display: flex;
     align-items: center;
+    color: #0159B1;
     
     
 }
@@ -249,7 +250,7 @@ body {
     height: 841px;
     left: 0px;
     top: 810px;
-    border: 1px solid black;
+  
 }
 
 .container-slider {
