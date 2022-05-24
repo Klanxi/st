@@ -17,7 +17,8 @@ body {
     left: 0px;
     top: 0px;
     filter: drop-shadow(0px 44px 110px rgba(183, 183, 183, 0.25));
-    border: 1px solid black;
+    background: FEFFFA
+
 }
 
 .top-bar {
@@ -83,6 +84,7 @@ body {
 
 .contact-txt-color-home {
     color: #0159B1;
+    font-weight: 600;
 }
 .contact-txt-sign-in {
     padding-left: 210px
@@ -185,14 +187,49 @@ body {
     background: none;
     filter: drop-shadow(0px 4px 9px rgba(0, 0, 0, 0.11));
 }
-.eclipse {
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    background: #FEFFFA;
-    opacity: 0.5;
-    padding-top: 10px;
+.header-navigation ul {
+    background: none;
 }
+.header-navigation ul li{
+    color: white;
+    font-size: 25px;
+}
+.btn-get-started {
+    position: absolute;
+    width: 107px;
+    height: 29px;
+    left: 135px;
+    top: 781px;
+
+}
+
+.btn-get-started-txt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 29px;
+    /* identical to box height, or 181% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    
+    color: #0159B1;
+}
+.social-icons {
+    position: absolute;
+    left: 15%;
+    right: 87.92%;
+    top: 140%;
+    bottom: 92.43%;
+}
+
+.social-icons-size {
+    padding-top: 30px;
+}
+
 
 .container-testimotional {
     position: absolute;
